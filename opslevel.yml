@@ -1,28 +1,23 @@
 ---
 version: 1
 service:
-  name: TestPOC
+  name: Opslevel-Poc2
   lifecycle:
-  tier:
-  product:
-  owner:
-  language:
+  tier: Tier_2
+  product: Enablement
+  owner: Cloud9
+  language: Python
   framework:
-  description:
+  description: "This is a test API for testing purpose"
   aliases:
-  - TestPOC
   tags:
-  - key: app.kubernetes.io/instance
-    value: ac-connector-cars-avisbudget
-  - key: app.kubernetes.io/managed-by
-    value: Helm
-  - key: app.kubernetes.io/name
-    value: nextgen-app-deployment
-  - key: helm.sh/chart
-    value: nextgen-app-deployment-0.5.0
   - key: imported
-    value: kubectl-opslevel
+    value: imported-manually
+  - key: BusinessUnit
+    value: CX.TRAVEL
   repositories:
   tools:
-  dependencies:
-  - alias: test-service
+  - name: Confluence
+    category: runbooks
+    url: https://confluence.cxloyalty.com/display/EN/Service+Catalog
+    environment: Production
