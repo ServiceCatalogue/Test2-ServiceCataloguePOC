@@ -1,0 +1,23 @@
+---
+version: 1
+service:
+  name: flights-connector-ctw-nextgen-app-deployment
+  lifecycle: Generally Available
+  tier: Tier_1
+  product: Flights
+  owner: Flights
+  language: C#
+  framework: .NET Framework
+  description: "This is a test API for testing purpose"
+  aliases:
+  tags:
+  - key: imported
+    value: imported-manually
+  - key: BusinessUnit
+    value: CX.TRAVEL
+  repositories:
+  tools:
+  - name: Confluence
+    category: runbooks
+    url: https://confluence.cxloyalty.com/display/EN/Service+Catalog
+    environment: Production
