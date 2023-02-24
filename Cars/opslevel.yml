@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: flights-connector-ctw-nextgen-app-deployment
+  name: car-domain-apis-nextgen-app-deployment
   lifecycle: Generally_Available
   tier: Tier_1
   product: Flights
@@ -22,6 +22,4 @@ service:
     url: https://confluence.cxloyalty.com/display/EN/Service+Catalog
     environment: Production
   dependencies:
-    - alias: activity-content-service-nextgen-app-deployment
-      notes: Provides products recommendations to enhance the users shopping experience
-    - alias: activity-usg-nextgen-app-deployment
+    - alias: flights-connector-ctw-nextgen-app-deployment
