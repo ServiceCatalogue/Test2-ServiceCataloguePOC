@@ -1,0 +1,25 @@
+---
+version: 1
+service:
+  name: cart-nextgen-app-deployment
+  lifecycle: Generally_Available
+  tier: Tier_2
+  product: Carts
+  owner: Cloud9
+  language: C#
+  framework: .NET Framework
+  description: "This is a test Caryt application for Demo purpose"
+  aliases:
+  tags:
+  - key: imported
+    value: imported-manually
+  - key: BusinessUnit
+    value: CX.TRAVEL
+  repositories:
+  tools:
+  - name: Confluence
+    category: runbooks
+    url: https://confluence.cxloyalty.com/display/EN/Service+Catalog
+    environment: Production
+  dependencies:
+    - alias: car-domain-apis-nextgen-app-deployment
