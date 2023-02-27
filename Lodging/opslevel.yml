@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: aircanada-hotel-content-extension-nextgen-app-deployment
+  name: aircanada-connector-hotel-multirate-nextgen-app-deployment
   lifecycle: Generally_Available
   tier: Tier_1
   product: Hotels
