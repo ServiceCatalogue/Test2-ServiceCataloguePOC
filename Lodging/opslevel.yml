@@ -1,0 +1,27 @@
+---
+version: 1
+service:
+  name: aircanada-hotel-content-extension-nextgen-app-deployment
+  lifecycle: Generally_Available
+  tier: Tier_1
+  product: Hotels
+  owner: Lodging
+  language: C#
+  framework: .NET Framework
+  description: "This is a test Flight application for Demo purpose"
+  aliases:
+  tags:
+  - key: imported
+    value: imported-manually
+  - key: BusinessUnit
+    value: CX.TravelClient
+  repositories:
+  tools:
+  - name: Confluence
+    category: runbooks
+    url: https://confluence.cxloyalty.com/display/EN/Service+Catalog
+    environment: Production
+  dependencies:
+    - alias: activity-content-service-nextgen-app-deployment
+      notes: Provides products recommendations to enhance the users shopping experience
+    - alias: activity-usg-nextgen-app-deployment
