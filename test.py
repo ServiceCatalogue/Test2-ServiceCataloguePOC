@@ -8,7 +8,6 @@ Nishant
 def main():
   print("log4j.2.17.1")
   log4j.2.17.1
-  test
-  Nishant
+  log4j
 
 if __name__ == __main__ : main()
