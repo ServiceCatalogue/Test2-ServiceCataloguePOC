@@ -4,7 +4,7 @@ service:
   name: aircanada-connector-hotel-multirate-nextgen-app-deployment
   lifecycle: Generally_Available
   tier: Tier_1
-  product: Hotels
+  product: 
   owner: Lodging
   language: C#
   framework: .NET Framework
