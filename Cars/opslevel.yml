@@ -1,0 +1,25 @@
+---
+version: 1
+service:
+  name: car-domain-apis-nextgen
+  lifecycle: Generally_Available
+  tier: Tier_1
+  product: Cars
+  owner: Cars
+  language: C#
+  framework: .NET Framework
+  description: "This is a test Flight application for Demo purpose"
+  aliases:
+  tags:
+  - key: imported
+    value: imported-manually
+  - key: BusinessUnit
+    value: CX.TRAVEL
+  repositories:
+  tools:
+  - name: Confluence
+    category: runbooks
+    url: https://confluence.cxloyalty.com/display/EN/Service+Catalog
+    environment: Production
+  dependencies:
+    - alias: flights-connector-ctw-nextgen-app-deployment
