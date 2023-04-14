@@ -1,0 +1,16 @@
+content:
+  application/json:
+    schema:
+      $ref: '#/components/schemas/MyObject'
+    examples:
+      jsonObject:
+        summary: A sample object
+        externalValue: 'http://example.com/examples/object-example.json'
+  application/pdf:
+    schema:
+      type: string
+      format: binary
+    examples:
+      sampleFile:
+        summary: A sample file
+        externalValue: 'http://example.com/examples/example.pdf'
